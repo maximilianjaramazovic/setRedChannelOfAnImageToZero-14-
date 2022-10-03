@@ -11,7 +11,7 @@ nameOfNewFile = input("Enter name of the output file: ")
 
 img2 = img.copy()
 img2[:,:, 0] = 0
-plt.imshow(img2)
-plt.show()
+#plt.imshow(img2)
+#plt.show()
 
 plt.imsave(nameOfNewFile, img2)
